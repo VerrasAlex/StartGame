@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditTextPreference
+        app:key="username"
+        app:summary="Change your Username"
+        app:title="Username"
+        android:dialogTitle="Your Name"
+        android:dialogMessage="Enter Your Complete Name"
+        android:defaultValue=" " />
+
+    <Preference
+        app:key="user_photo"
+        app:summary="Change your Profile Picture"
+        app:title="Profile Picture"
+        app:enabled="false"/>
+
+    <ListPreference
+        android:defaultValue="true"
+        android:entries="@array/SkillLevel"
+        android:entryValues="@array/updateSkillLevel"
+        app:key="user_capability"
+        app:summary="Your Skill Level"
+        app:title="Skill Level" />
+
+    <Preference
+        app:key="user_rating"
+        app:summary="Rate your skills"
+        app:title="My Skillset"
+        android:fragment="com.example.startgame.SettingsActivity$SkillsetFragment"
+        android:title="SKillset"
+        android:summary="Manage your Skillset Info" >
+        <extra android:name="Settings" android:value="Skillset" />
+    </Preference>
+
+</PreferenceScreen>

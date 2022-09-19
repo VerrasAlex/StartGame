@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">StartGame</string>
+    <string name="title_activity_filter_basketball">FilterBasketball</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="filterTV">Filter out Soccer Fileds!</string>
+    <string name="athens">Athens</string>
+    <string name="thesalonniki">Thesalonniki</string>
+    <string name="_5x5">5x5</string>
+    <string name="_7x7">7x7</string>
+    <string name="_8x8">8x8</string>
+    <string name="capacity">Capacity</string>
+    <string name="city">City</string>
+    <string name="cost">Cost</string>
+    <string name="_10x10">10x10</string>
+    <string name="low_to_high">Low to High</string>
+    <string name="high_to_low">High to Low</string>
+    <string name="fields">Fields</string>
+    <string name="title_activity_reserved">Reserved</string>
+    <string name="field_has_been_reserved">FIeld has been Reserved!</string>
+    <string name="back_to_start">Back to Start</string>
+    <string name="todo">TODO</string>
+    <string name="field_has_benn_reserved">Field has been Reserved</string>
+    <string name="search_fields">search Fields</string>
+    <string name="indoor">Indoor</string>
+    <string name="outdoor">Outdoor</string>
+    <string name="filter_basketball_fields">Filter Basketball Fields!</string>
+    <string name="type">Type</string>
+    <string name="title_activity_my_games">MyGames</string>
+</resources>

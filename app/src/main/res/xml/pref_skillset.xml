@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<PreferenceCategory
+    app:key = "Basketball_category"
+    app:title = "Basketball">
+
+    <SeekBarPreference
+        app:key="Ball_handling"
+        app:title="Ball Handling"
+        app:showSeekBarValue="true"
+        android:min="0"
+        android:max="10"/>
+
+    <SeekBarPreference
+        app:key="free_throws"
+        app:title="Free Throws"
+        app:showSeekBarValue="true"
+        android:min="0"
+        android:max="10"/>
+
+    <SeekBarPreference
+        app:key="ppg"
+        app:title="Points per Game"
+        app:showSeekBarValue="true"
+        android:min="0"
+        android:max="100"/>
+
+</PreferenceCategory>
+
+    <PreferenceCategory
+        app:key = "Soccer_category"
+        app:title = "Soccer">
+
+        <SeekBarPreference
+            app:key="kick"
+            app:title="Kick"
+            app:showSeekBarValue="true"
+            android:min="0"
+            android:max="10"/>
+
+        <SeekBarPreference
+            app:key="dribbble"
+            app:title="Dribbble"
+            app:showSeekBarValue="true"
+            android:min="0"
+            android:max="10"/>
+
+        <SeekBarPreference
+            app:key="goalkeeping"
+            app:title="Goalkeeping"
+            app:showSeekBarValue="true"
+            android:min="0"
+            android:max="10"/>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

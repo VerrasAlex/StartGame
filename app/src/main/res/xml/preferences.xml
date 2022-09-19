@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        app:key = "General"
+        app:title = "General">
+    <SwitchPreferenceCompat
+        app:key="notifications"
+        app:title="Enable message notifications"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key="help_category"
+        app:title="Help">
+
+        <Preference
+            app:key="feedback"
+            app:summary="Report technical issues or suggest new features"
+            app:title="Send feedback"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:key = "account_category"
+        app:title = "Account">
+
+        <Preference
+            app:key="profile"
+            app:summary="Customize your Profile"
+            app:title="Profile"
+            android:fragment="com.example.startgame.SettingsActivity$ProfileFragment"
+            android:title="Profile"
+            android:summary="Manage Profile Settings ">
+            <extra android:name="Settings" android:value="Profile" />
+        </Preference>
+
+
+        <Preference
+            app:key="security"
+            app:summary="Personal Info Management"
+            app:title="Security"
+            android:fragment="com.example.startgame.SettingsActivity$SecurityFragment"
+            android:title="Security"
+            android:summary="Manage Personal Info" >
+            <extra android:name="Settings" android:value="Security" />
+        </Preference>
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <EditTextPreference
+        android:key="email_address"
+        android:title="Email Address"
+        android:summary="Enter Your Email Address"
+        android:dialogTitle="Enter Your Email Address"
+        android:dialogMessage="Enter Your Email Address"
+        android:defaultValue=" "
+        android:inputType="textEmailAddress"/>
+
+    <EditTextPreference
+        android:key="password"
+        android:title="Password"
+        android:summary="Change Password"
+        android:dialogTitle="Change Password"
+        android:dialogMessage="Change Password"
+        android:defaultValue=" "
+        android:inputType="textPassword"/>
+
+    <Preference
+        app:key="smlogin"
+        app:summary="Login with Facebook or Gmail account"
+        app:title="Login with other Means"
+        app:enabled="false"/>
+
+    <Preference
+        app:key="logout"
+        app:summary="Logout, you'll be moved to singin screen (hopefully)"
+        app:title="Logout" />
+
+</PreferenceScreen>
